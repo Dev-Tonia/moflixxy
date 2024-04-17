@@ -1,6 +1,5 @@
-const form = document.getElementById("edit-profile");
+const form = document.getElementById("rest");
 const email = document.getElementById("email");
-// const form = document.getElementByid("form");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -11,7 +10,6 @@ form.addEventListener("submit", (e) => {
 function checkInput() {
   // get the values from the inputs
   const emailValue = email.value.trim();
-
   if (emailValue === "") {
     setErrorFor(email, "Email cannot be blank");
   } else if (!isEmail(emailValue)) {

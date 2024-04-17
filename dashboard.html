@@ -292,24 +292,11 @@
                   <p>johndoe@gmail.com</p>
                 </div>
               </div>
+              <!-- edit profile section -->
               <div class="my-4">
                 <h3>Edit Personal Details</h3>
 
-                <form action="" id="reForm">
-                  <div>
-                    <div class="form-wrapper mb-3">
-                      <label for="username" class="form-label mb-1 fw-medium">
-                        Username
-                      </label>
-                      <input
-                        type="text"
-                        id="username"
-                        name="username"
-                        class="form-control"
-                        placeholder="movieLover"
-                      />
-                    </div>
-                  </div>
+                <form action="" id="edit-profile" method="post">
                   <div class="form-wrapper mb-3">
                     <label for="email" class="form-label mb-1 fw-medium">
                       Email
@@ -321,6 +308,8 @@
                       class="form-control"
                       placeholder="johndoe@email.com "
                     />
+                    <small class="d-none text-danger-emphasis fst-italic">
+                    </small>
                   </div>
                   <div class="form-wrapper mb-3">
                     <label for="formFile" class="form-label"
@@ -341,7 +330,43 @@
         </div>
       </div>
     </main>
-
+    <!-- Footer -->
+    <footer class="main-footer py-5">
+      <div class="container-sm">
+        <div class="d-flex justify-content-between">
+          <div class="logo">
+            <span class="fw-semibold fw-medium fs-4">MOFLIXX</span>
+          </div>
+          <div class="social-links d-flex gap-4">
+            <a
+              href="https://www.facebook.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-facebook-fill fs-3"></i>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-twitter-fill fs-3"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-instagram-fill fs-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-sm">
+        <p>
+          &copy; 2024 <span class="special fw-medium fs-5">MOFLIXX</span>. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
     <!-- bootstrap js -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./static/js/editProfile.js"></script>

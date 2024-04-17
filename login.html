@@ -88,7 +88,7 @@
             <p>Add your details below to get back into the app</p>
           </div>
 
-          <form action="" id="login">
+          <form action="" id="login" method="post">
             <div class="form-wrapper mb-3">
               <label for="email" class="form-label mb-1 fw-medium">
                 Email
@@ -100,9 +100,7 @@
                 class="form-control"
                 placeholder="johndoe@email.com "
               />
-              <small class="d-none text-danger-emphasis fst-italic">
-                The password should be up to 8 characters
-              </small>
+              <small class="d-none text-danger-emphasis fst-italic"> </small>
             </div>
 
             <div className="form-wrapper mb-3">
@@ -117,9 +115,7 @@
                 class="form-control"
                 placeholder="****************"
               />
-              <small class="d-none text-danger-emphasis fst-italic">
-                The password should be up to 8 characters
-              </small>
+              <small class="d-none text-danger-emphasis fst-italic"> </small>
             </div>
             <p class="no-acc mt-1">
               <a href="/password-rest.html">Forget Password</a>
@@ -141,7 +137,43 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-5 bg-secondary text-white">foot will come here</footer>
+    <!-- Footer -->
+    <footer class="main-footer py-5">
+      <div class="container-sm">
+        <div class="d-flex justify-content-between">
+          <div class="logo">
+            <span class="fw-semibold fw-medium fs-4">MOFLIXX</span>
+          </div>
+          <div class="social-links d-flex gap-4">
+            <a
+              href="https://www.facebook.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-facebook-fill fs-3"></i>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-twitter-fill fs-3"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              class="text-white text-decoration-none"
+              target="_blank"
+              ><i class="ri-instagram-fill fs-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-sm">
+        <p>
+          &copy; 2024 <span class="special fw-medium fs-5">MOFLIXX</span>. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./static/js/login.js"></script>
     a
