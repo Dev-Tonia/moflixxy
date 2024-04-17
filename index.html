@@ -323,28 +323,14 @@
             </form>
             <!-- <div class="col-4"></div> -->
             <div class="col-6 d-flex align-items-center justify-content-end">
-              <div class="dropdown">
-                <button
-                  class="btn custom-btn text-white fw-semibold"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <span class="d-inline-block pe-3"> Filter </span>
-                  <i class="ri-filter-3-line fw-semibold fs-5"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Now-Playing</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Popular </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Top Rated </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Up Coming </a>
-                  </li>
-                </ul>
+              <div class="col-6">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Fliter</option>
+                  <option value="Now Playing">Now Playing</option>
+                  <option value="Popular">Popular</option>
+                  <option value="Top Rated">Top Rated</option>
+                  <option value="Up Coming ">Up Coming</option>
+                </select>
               </div>
             </div>
           </div>
